@@ -44,8 +44,8 @@ server:
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/bookstore_management_system?createDatabaseIfNotExist=true
-    username: root
-    password: root
+    username: ****
+    password: ****
 
   jpa:
     hibernate:
@@ -72,7 +72,7 @@ spring:
 
 ## 👤 Developer
 Name: Devendra Mule  
-Technology: Java, Spring Boot
+Technology: Java, Spring Boot, MySql
 
 ---
 
