@@ -1,8 +1,10 @@
-# 📚 Bookstore Management System
+# 📚 Bookstore Management System API
 
 ## 📌 Project Description
-This is a Bookstore Management System REST API developed using Spring Boot.
-It provides secure APIs for managing users and books using JWT authentication.
+I have developed a Bookstore Management System REST API using Spring Boot.
+The project includes user registration, login with JWT authentication, role-based authorization (ADMIN/CUSTOMER), and secure CRUD operations for books and orders.
+All APIs are tested using Postman and documented in the README file.
+
 
 ---
 
