@@ -39,9 +39,9 @@ public class SecurityConfig {
                         "/v3/api-docs/**",
                         "/swagger-ui/**",
                         "/swagger-ui.html"
-                ).permitAll()          // PUBLIC APIs
-                .requestMatchers("/api/customer/**").hasRole("CUSTOMER")
-                .requestMatchers("/api/admin/**").hasRole("ADMIN")
+                ).permitAll()         // PUBLIC APIs
+                .requestMatchers("/api/customer/**").hasAuthority("CUSTOMER")
+                .requestMatchers("/api/admin/**").hasAuthority("ADMIN")
                 .anyRequest().authenticated() // PROTECTED APIs
             )
 
