@@ -17,7 +17,7 @@
     <groupId>com.devendra</groupId>
     <artifactId>bookstore-management-system</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>bookstore-management-system</name>
+    <name>bookstore-management-system</name> 
     <description>Bookstore Management System REST API</description>
 
     <!-- ✅ COMPATIBLE JAVA VERSION -->
